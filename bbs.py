@@ -4,6 +4,7 @@ import sys
 import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 
+
 import cgi
 form_data = cgi.FieldStorage(keep_blank_values = True)
 
